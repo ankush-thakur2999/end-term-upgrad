@@ -1,0 +1,50 @@
+form{
+    margin-top: 5%;
+    padding: auto;
+
+}
+input{
+    margin: 2%;
+    font-family:"Calibri (Body)";
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../image/corona.jpg");
+  
+    /* Full height */
+   height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: -1;
+  }
+  
+  
+    
+
+  
+  
+  #main{
+    
+    margin-top: 10%;
+    background-color: blue;
+    height: fit-content;
+    width: fit-content;
+    z-index: 2;
+    padding: 5% 20%;
+    
+     
+  }
+  #main p{
+      text-align: center;
+      padding: 1%;
+  }
+  #submit{
+    font-family:"Calibri (Body)";
+    background-color: blue;
+  }

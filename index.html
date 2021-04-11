@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!--Own Css links-->
+        <link rel="stylesheet" href="css/index.css">
+        <!--Own javascript src-->
+        <script src="javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="bg">
+        <div class="container-fluid">
+        <div class=" row">
+            <form>
+                <div class="col-sm-3">
+                    <input type="text"  placeholder="enter country name" id="country" required>
+                </div>
+                <div class="col-sm-3">
+                    <label>Start Date</label>
+                    <input type ="date" value="enter start date" min="2019-01-01" max ="2025-01-01" id="dateOne" required>
+                </div>
+                <div class="col-sm-3">
+                    <label>End Date</label>
+                     <input type ="date" value="enter end date" min="2019-01-01" max ="2025-01-01" id="dateTwo" required>
+                </div>
+                <div class="col-sm-3 d-flex justify-content-center">
+                    <input type="submit" value=" Submit" id="submit" onclick="abc(event)">
+                </div>
+            </form>
+     
+           
+        </div>
+        </div>
+        <div class="container-fluid" id="abcdef">
+     
+        
+        </div>
+        </div>
+    </body>
+</html>
